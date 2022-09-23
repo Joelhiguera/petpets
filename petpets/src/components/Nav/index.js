@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-        <ul className="flex-row">
-          <li className="mx-1">
+        <ul className="navbarUl">
+          <li className="navbarLi">
             <Link to="/signup">
               Signup
             </Link>
           </li>
-          <li className="mx-1">
+          <li className="navbarLi">
             <Link to="/login">
               Login
             </Link>
