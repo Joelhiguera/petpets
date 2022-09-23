@@ -20,6 +20,11 @@ function Nav() {
               Login
             </Link>
           </li>
+          <li className="navbarLi">
+            <Link to="/shop">
+              Shop
+            </Link>
+          </li>
         </ul>
         </div>
       );
