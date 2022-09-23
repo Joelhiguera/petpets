@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .navbarUl {
@@ -7,11 +8,19 @@
   margin: 0%;
   padding: 3px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-size: 30px;
   list-style: none;
 }
 
 .navbarLi {
   margin-left: 3%;
+}
+
+.footer {
+  background-color:rgb(51, 160, 160);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }

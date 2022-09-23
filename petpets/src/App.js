@@ -54,10 +54,8 @@ function App() {
                 element={<Signup />} 
               />
               
-             
-              
-              
             </Routes>
+            
             <Footer />
         </div>
       </Router>
