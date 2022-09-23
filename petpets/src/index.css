@@ -3,18 +3,28 @@
   margin: 0;
 }
 
-.navbarUl {
+.navbarContainer {
   background-color: rgb(51, 160, 160);
   margin: 0%;
   padding: 3px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   font-size: 30px;
+  
+}
+
+.navbarUl {
+  display: flex;
   list-style: none;
+  margin: 1%;
 }
 
 .navbarLi {
-  margin-left: 3%;
+  padding: 5px;
+}
+
+.logo {
+  margin: 1%;
 }
 
 .footer {
@@ -23,4 +33,5 @@
   bottom: 0;
   width: 100%;
   height: 60px;
+  text-align: center;
 }

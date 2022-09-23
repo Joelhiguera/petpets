@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
+        <div className="navbarContainer">
+          <h2 className="logo">
+            <Link to="/">
+              PETPETS
+            </Link>
+          </h2>
         <ul className="navbarUl">
           <li className="navbarLi">
             <Link to="/signup">
@@ -15,6 +21,7 @@ function Nav() {
             </Link>
           </li>
         </ul>
+        </div>
       );
     }
   
