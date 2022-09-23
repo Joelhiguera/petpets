@@ -14,6 +14,7 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 
+
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
@@ -55,6 +56,7 @@ function App() {
               />
               
             </Routes>
+            
             
             <Footer />
         </div>
