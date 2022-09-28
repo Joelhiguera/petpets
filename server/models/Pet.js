@@ -28,6 +28,9 @@ const petSchema = new Schema({
   size: {
     type: String
   },
+  color: {
+    type: String
+  },
   category: {
     type: Schema.Types.ObjectId,
     ref: 'Category',

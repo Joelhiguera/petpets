@@ -25,12 +25,25 @@ db.once('open', async () => {
       description:
         'He is searching for his forever home. HE is such a good dog, loves to be around people and loves other dogs. His background is a mystery. He came in with another dog so he gets along well with others. He is a typical malamute. He loves to be out side. He wants all the love and attention.',
       charachteristics: 
-      'Friendly, Affectionate, Loyal, Gentle, Playful, Independent, Curious, Smart, Brave, Protective, Funny, Loves kisses, Couch potato.',
+        'Friendly, Affectionate, Loyal, Gentle, Playful, Independent, Curious, Smart, Brave, Protective, Funny, Loves kisses, Couch potato.',
       gender: 'Male',
       age: 3,
       size: "Large",
+      color: 'Black',
       image: '',
       category: categories[0]._id,
+    },
+    {
+      name: 'Timmy',
+      description:
+        'He is searching for his forever home!',
+      charachteristics: 
+        'Friendly, Affectionate,',
+      gender: 'Male',
+      age: 2,
+      size: "Medium",
+      image: '',
+      category: categories[1]._id,
     },
   ])
 })
