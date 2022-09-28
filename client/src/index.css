@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .headerContainer {
@@ -9,6 +14,27 @@
   display: flex;
   justify-content: space-between;
   font-size: 30px;
+}
+
+.logo {
+  font-family: 'Fredoka One', cursive;
+}
+
+.logo a:visited {
+  text-decoration: none;
+  color: #21897E;
+}
+
+.navbarLi a:visited {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7EBCE6;
 }
 
 .navbarContainer {
@@ -29,6 +55,8 @@
 
 .navbarLi {
   padding: 5px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .logo {

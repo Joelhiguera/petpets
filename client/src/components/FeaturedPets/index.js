@@ -6,7 +6,7 @@ import dog4  from '../../assets/dog4.jpg'
 
 
 
-function FeaturedPets() {
+function FeaturedPets(props) {
   return(
     <div>
     <h2 style={{textAlign: "center"}}>Pets Available for Adoption</h2>
