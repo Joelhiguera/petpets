@@ -21,8 +21,8 @@ function Nav() {
             </Link>
           </li>
           <li className="navbarLi">
-            <Link to="/shop">
-              Shop
+            <Link to="/Profile">
+              Profile
             </Link>
           </li>
         </ul>
