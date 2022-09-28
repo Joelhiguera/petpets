@@ -11,9 +11,26 @@ db.once('open', async () => {
     {name: 'Old English Sheepdog'},
     {name: 'German Shepherd'},
     {name: 'Terrier'},
-    {name: 'Pit Bull Terrier Mix'},
+    {name: 'Pit Bull Terrier Mix'}
+    
+  ]);
+  
+  console.log('breeds seeded')
 
+  await Pet.deleteMany();
 
-
-  ]); 
+  const pets = await Pet.insertMany([
+    {
+      name: 'Sitka',
+      description:
+        'He is searching for his forever home. HE is such a good dog, loves to be around people and loves other dogs. His background is a mystery. He came in with another dog so he gets along well with others. He is a typical malamute. He loves to be out side. He wants all the love and attention.',
+      charachteristics: 
+      'Friendly, Affectionate, Loyal, Gentle, Playful, Independent, Curious, Smart, Brave, Protective, Funny, Loves kisses, Couch potato.',
+      gender: 'Male',
+      age: 3,
+      size: "Large",
+      image: '',
+      category: categories[0]._id,
+    },
+  ])
 })

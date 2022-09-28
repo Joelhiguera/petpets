@@ -11,6 +11,9 @@ const petSchema = new Schema({
   description: {
     type: String
   },
+  charachteristics: {
+    type: String
+  },
   image: {
     type: String
   },
@@ -18,6 +21,12 @@ const petSchema = new Schema({
     type: Number,
     min: 0,
     default: 0
+  },
+  gender: {
+    type: String
+  },
+  size: {
+    type: String
   },
   category: {
     type: Schema.Types.ObjectId,
