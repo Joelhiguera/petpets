@@ -4,7 +4,7 @@ import React from "react";
 function Nav() {
   return (
         <div className="navbarContainer">
-          <h1>This is the navbar</h1>
+          <h3>This is the navbar</h3>
         </div>
       );
     }

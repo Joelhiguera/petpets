@@ -3,8 +3,16 @@
   margin: 0;
 }
 
+.headerContainer {
+  margin: 0%;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
 .navbarContainer {
-  background-color: rgb(51, 160, 160);
+  background-color: #7EBCE6;
   margin: 0%;
   padding: 3px;
   display: flex;
