@@ -38,6 +38,23 @@ a:hover {
   color: #7EBCE6;
 }
 
+.signUp {
+  text-align: center;
+  margin-top: 4%;
+  border: 1px solid rgb(173, 165, 165);
+  width: 50%;
+  margin-left: 25%;
+  padding: 150px;
+  border-radius: 2%;
+  margin-bottom: 7%;
+  background-color: #21897E;
+}
+
+.formEntry {
+  padding: 20px;
+  font-size: 30px;
+}
+
 .navbarContainer {
   background-color: #7EBCE6;
   margin: 0%;
