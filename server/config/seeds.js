@@ -1,5 +1,5 @@
 const db = require('./connection');
-const { User, Pet, Breed } = require('../models');
+const { Pet, Breed } = require('../models');
 
 db.once('open', async () => {
   await Breed.deleteMany();
@@ -31,7 +31,7 @@ db.once('open', async () => {
       size: "Large",
       color: 'Black',
       image: '',
-      category: categories[0]._id,
+      category: breeds[0]._id,
     },
     {
       name: 'Timmy',
@@ -44,7 +44,7 @@ db.once('open', async () => {
       size: "Medium",
       color: 'Red/White',
       image: '',
-      category: categories[1]._id,
+      category: breeds[1]._id,
     },
     {
       name: 'Badger',
@@ -57,7 +57,7 @@ db.once('open', async () => {
       size: "Medium",
       color: 'Black/White',
       image: '',
-      category: categories[2]._id,
+      category: breeds[2]._id,
     },
     {
       name: 'Miss Muffin',
@@ -70,7 +70,7 @@ db.once('open', async () => {
       size: "Medium",
       color: 'White/black',
       image: '',
-      category: categories[3]._id,
+      category: breeds[3]._id,
     },
     {
       name: 'Victoria',
@@ -83,7 +83,7 @@ db.once('open', async () => {
       size: "Small",
       color: 'Black, Yellow/Tan/Blonde/Fawn',
       image: '',
-      category: categories[4]._id,
+      category: breeds[4]._id,
     },
     {
       name: 'Foggy',
@@ -96,7 +96,7 @@ db.once('open', async () => {
       size: "Small",
       color: 'Yellow/Tan/Blonde/Fawn',
       image: '',
-      category: categories[4]._id,
+      category: breeds[4]._id,
     },
     {
       name: 'Momma',
@@ -109,7 +109,7 @@ db.once('open', async () => {
       size: "Medium",
       color: 'Black, White/Cream',
       image: '',
-      category: categories[5]._id,
+      category: breeds[5]._id,
     },
     
   ]);
