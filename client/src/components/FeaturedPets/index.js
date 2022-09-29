@@ -6,6 +6,7 @@ import dog4  from '../../assets/dog4.jpg'
 
 
 
+
 function FeaturedPets(props) {
   return(
     <div>
