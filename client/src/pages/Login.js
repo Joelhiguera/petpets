@@ -30,12 +30,12 @@ function Login(props) {
   };
 
   return (
-    <div className=''>
+    <div className='signUp'>
       <Link to ="/signup">Go to Signup</Link>
 
       <h2>Login</h2>
       <form onSubmit={handleFormSubmit}>
-        <div className=''>
+        <div className='formEntry'>
           <label htmlFor='email'>Email address:</label>
           <input
             placeholder='youremail@test.com'
@@ -45,7 +45,7 @@ function Login(props) {
             onChange={handleChange}
             />
         </div>
-        <div className=''>
+        <div className='formEntry'>
           <label htmlFor='pwd'>password:</label>
           <input
           placeholder='*******'
@@ -60,7 +60,7 @@ function Login(props) {
             <p className=''>The provided credentials are incorrect</p>
           </div>
         ) : null}
-        <div className=''>
+        <div className='formEntry'>
           <button type='submit'>Submit</button>
         </div>
       </form>

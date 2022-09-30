@@ -1,10 +1,17 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User } = require('../models');
 const { signToken } = require('../utils/auth');
+const Auth = require('../utils/auth')
 
-
+console.log(Auth)
 const resolvers = {
   Query: {
+    loggedInUser: (parent, { args }, context) => {
+      console.log(context.user)
+      
+      return context.user;
+    },
+   
 
   },
   Mutation: {

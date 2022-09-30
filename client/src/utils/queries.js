@@ -11,3 +11,12 @@ export const QUERY_USER = gql`
     }
   }
 `;
+
+export const LOGGED_IN_USER = gql`
+ query loggedInUser {
+    loggedInUser {
+      firstName 
+      _id
+    }
+  }
+`;

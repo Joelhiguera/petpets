@@ -4,6 +4,11 @@ import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
 
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import "bootstrap/dist/css/bootstrap.min.css"
+
+
 function Signup(props) {
   const [formState, setFormState] = useState({ email: '', password: '' });
   const [addUser] = useMutation(ADD_USER);
