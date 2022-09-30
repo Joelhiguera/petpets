@@ -42,7 +42,7 @@ function App() {
       <Router>
         <div>
           <Header />
-            <Nav />
+            
             <Routes>
               <Route 
                 path="/" 
