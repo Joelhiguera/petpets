@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
+// import { LOGGED_IN_USER } from '../../utils/queries'
+// import { useQuery } from '@apollo/client'
+
+
+
+
 
 
 function Header() {
+
+
   function showNavigation() {
     if (Auth.loggedIn()) {
       return(
@@ -21,7 +29,7 @@ function Header() {
         </li>
         <li className="navbarLi">
           <Link to="/Profile">
-            Profile
+            profile 
           </Link>
         </li>
       </ul>
@@ -46,11 +54,7 @@ function Header() {
               Login
             </Link>
           </li>
-          <li className="navbarLi">
-            <Link to="/Profile">
-              Profile
-            </Link>
-          </li>
+          
         </ul>
         </div>
       );
