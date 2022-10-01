@@ -12,9 +12,15 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Profile from './pages/Profile';
-import Nav from './components/Nav';
+import Victoria from './pages/Victoria';
+import Ollie from './pages/Ollie';
+import Petrie from './pages/Petrie';
+
+
+// import Nav from './components/Nav';
 import Footer from './components/Footer'
 import Header from './components/Header';
+
 
 
 const httpLink = createHttpLink({
@@ -60,6 +66,19 @@ function App() {
                 path="/profile" 
                 element={<Profile />} 
               />
+              <Route 
+                path="/Victoria" 
+                element={<Victoria />} 
+              />
+              <Route 
+                path="/ollie" 
+                element={<Ollie />} 
+              />
+              <Route 
+                path="/petrie" 
+                element={<Petrie />} 
+              />
+              
               
             </Routes>
             
