@@ -20,7 +20,7 @@ function Header() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return(
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
           <Link to='/'>
             <Navbar.Brand href="#home">PETPETS</Navbar.Brand>
@@ -73,7 +73,7 @@ function Header() {
     } 
     else {
       return (
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="lg"  variant="dark">
         <Container>
           <Link to='/'>
             <Navbar.Brand href="#home">PETPETS</Navbar.Brand>
