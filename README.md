@@ -7,7 +7,7 @@ This application allows users to create a profile, search for domestic animals t
 Run an npm i at the root level in your terminal
 
 ## Usage
-run `npm run develop` at the root level in your terminal to start the application
+run `npm run develop` at the root level in your terminal to start the application.
 
 ## Screen Shots
 ![Alt text](petpets1.PNG)
