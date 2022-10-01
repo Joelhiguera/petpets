@@ -19,8 +19,10 @@ const Profile = () => {
 
   return(
     <>
-      <p>Hello</p>
-    </>
+      <h1 style={{textAlign: 'center'}}>Profile page</h1>
+      <h2 style={{textAlign: 'center'}}>Saved Pets</h2>
+
+    </>  
   )
 }
 
