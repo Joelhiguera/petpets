@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 // import { LOGGED_IN_USER } from '../../utils/queries'
@@ -30,7 +29,7 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#adoption">Adoption</Nav.Link>
               <NavDropdown title="Breeds" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -84,7 +83,7 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#adoption">Adoption</Nav.Link>
               <NavDropdown title="Breeds" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
