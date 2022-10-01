@@ -57,6 +57,14 @@ a:hover {
   font-size: 30px;
 }
 
+.navbar {
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  font-size: 2.0rem !important;
+}
+
 .navbarContainer {
   background-color: #7EBCE6;
   margin: 0%;
@@ -92,16 +100,16 @@ a:hover {
 }
 
 .card {
-  margin: 1%;
+  /* margin: 1%;
   text-align: center;
   border: 1px solid black;
-  border-radius: 5%;
-  
-}
-
-.cardContainer {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  border-radius: 5%; */
+  background: white;
+  padding: 1rem;
+  border: 1px solid #777;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+  width: 18rem;
   
 }
 

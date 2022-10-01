@@ -28,7 +28,6 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
               <Nav.Link href="#adoption">Adoption</Nav.Link>
               <NavDropdown title="Breeds" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>
@@ -82,7 +81,6 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
               <Nav.Link href="#adoption">Adoption</Nav.Link>
               <NavDropdown title="Breeds" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Dogs</NavDropdown.Item>

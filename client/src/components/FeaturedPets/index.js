@@ -35,7 +35,7 @@ function FeaturedPets(props) {
           <Card style={{borderRadius: '5%', width: '18rem' }}>
             <Card.Img variant="top" src={petrie1} />
           <Card.Body>
-            <Card.Title style={{color: 'blue', fontSize:"30px"}}>Badger</Card.Title>        
+            <Card.Title style={{color: 'blue', fontSize:"30px"}}>Petrie</Card.Title>        
           </Card.Body>
           </Card>
         </Link>
