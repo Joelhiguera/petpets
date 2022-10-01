@@ -35,7 +35,7 @@ function Victoria(){
       </Carousel.Item>
     </Carousel>
       
-    <Card className='mx-auto' style={{fontSize: "1.5rem", width: '60rem' }}>
+    <Card className='mx-auto' style={{fontSize: "1.5rem", width: '60rem', marginBottom: '10%' }}>
       <Card.Body className='p-4'>
         <Card.Title className='mb-5' style={{fontSize: "3.0rem"}}>Victoria</Card.Title>
         German Shepherd Dog • UT

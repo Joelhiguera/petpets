@@ -6,8 +6,25 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
 }
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/hero.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+}
+
+.hero-text {
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  color: white;
+}
 
 
 .headerContainer {
@@ -98,7 +115,9 @@ a:hover {
 .petContainer {
   display: flex;
   justify-content:center;
+  margin-bottom: 3%;
 }
+
 
 .card {
   /* margin: 1%;
@@ -111,14 +130,22 @@ a:hover {
   border-radius: .25rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
   width: 18rem;
-  
 }
+
 
 .carouselImg {
   
   height: 600px;
   object-fit: contain;
 }
+
+.featuredPet:hover {
+  border: .5px solid #21897E;
+  border-radius: 5%;
+  transition: border-color 1s ease;
+}
+
+
 
 .petImg {
   object-fit: cover;
@@ -133,10 +160,18 @@ a:hover {
 
 }
 .footer {
-  background-color: #7EBCE6;
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 60px;
   text-align: center;
+  background-color: #21897E;
+
+}
+
+@media screen and (max-width: 992px) {
+  .petContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

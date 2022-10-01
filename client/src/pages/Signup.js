@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
@@ -37,7 +36,7 @@ function Signup(props) {
 
   return(
     <Form onSubmit={handleFormSubmit}>
-    <Form.Group className="mx-auto mb-3" style={{width: "50%"}} controlId="firstName">
+    <Form.Group className="mx-auto my-5 mb-3" style={{width: "50%"}} controlId="firstName">
       <Form.Label className='font-weight-bold' htmlFor='firstName'>First Name</Form.Label>
       <Form.Control  type="firstName" name='firstName' placeholder="First" onChange={handleChange} />
     </Form.Group>
