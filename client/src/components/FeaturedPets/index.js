@@ -13,29 +13,29 @@ function FeaturedPets(props) {
     <h2 style={{textAlign: "center", marginTop: '4%'}}>Pets Available for Adoption</h2>
     <div className='petContainer'>
       
-        <Link to={'./ollie'}>   
+        <Link className='featuredPet' style={{marginRight: "2%"}} to={'./ollie'}>   
           <Card style={{borderRadius: '5%', width: '18rem' }}>
-            <Card.Img variant="top" src={ollie1} />
+            <Card.Img style={{borderRadius: '5%', height: '254px', objectFit: 'cover' }} variant="top" src={ollie1} />
           <Card.Body>
-            <Card.Title style={{color: 'blue', fontSize:"30px"}}>Ollie</Card.Title>        
+            <Card.Title style={{color: '#468189', fontSize:"30px", textAlign: "center"}}>Ollie</Card.Title>        
           </Card.Body>
           </Card>
         </Link>
 
-        <Link to={'./victoria'}>   
+        <Link className='featuredPet' style={{marginRight: "2%"}} to={'./victoria'}>   
           <Card style={{borderRadius: '5%', width: '18rem' }}>
-            <Card.Img variant="top" src={victoria1} />
+            <Card.Img style={{borderRadius: '5%', height: '254px', objectFit: 'cover' }} variant="top" src={victoria1} />
           <Card.Body>
-            <Card.Title style={{color: 'blue', fontSize:"30px"}}>Victoria</Card.Title>        
+            <Card.Title style={{color: '#468189', fontSize:"30px", textAlign: "center"}}>Victoria</Card.Title>        
           </Card.Body>
           </Card>
         </Link>
 
-        <Link to={'./petrie'}>   
+        <Link className='featuredPet' to={'./petrie'}>   
           <Card style={{borderRadius: '5%', width: '18rem' }}>
-            <Card.Img variant="top" src={petrie1} />
+            <Card.Img style={{borderRadius: '5%', height: '254px', objectFit: 'cover' }} variant="top" src={petrie1} />
           <Card.Body>
-            <Card.Title style={{color: 'blue', fontSize:"30px"}}>Petrie</Card.Title>        
+            <Card.Title style={{color: '#468189', fontSize:"30px", textAlign: "center"}}>Petrie</Card.Title>        
           </Card.Body>
           </Card>
         </Link>
